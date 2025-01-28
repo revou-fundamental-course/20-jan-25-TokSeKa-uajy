@@ -1,19 +1,31 @@
 /* Ini File CSS */
 
+/* CSS untuk main; 
+Display dibikin flex ada gap 5 vw sebagai 5 persen dari view 
+Padding 32px biar menjorok ke dalam*/
 main {
     display: flex;
-    gap: 32px;
+    gap: 5vw;
     padding: 32px;
 }
 
+/* CSS untuk footer;
+Text align center biar rata tengah */
 footer {
     text-align: center;
 }
 
+/* CSS untuk header;
+Text align center biar rata tengah */
 .main-header {
     text-align: center;
 }
 
+/* CSS untuk section;
+width 100% biar penuh
+box-sizing border-box biar padding dan border ga nambahin ukuran
+Padding 16px biar menjorok ke dalam 
+*/
 input[type=number] {
     width: 100%;
     padding: 12px 20px;
@@ -21,38 +33,86 @@ input[type=number] {
     box-sizing: border-box;
 }
 
+/* CSS untuk form;
+Background color antiquewhite
+Padding 32px biar menjorok ke dalam */
 form {
     background-color: antiquewhite;
     padding: 32px;
 }
 
+/* CSS untuk form-group;
+Display flex biar bisa diatur flex directionnya
+Flex direction column biar jadi kolom
+Padding bottom 16px biar ada jarak antar form group */
 .form-group {
     display: flex;
     flex-direction: column;
     padding-bottom: 16px;
 }
 
+/* CSS untuk form-group-radio;
+Flex direction column biar jadi kolom
+Padding bottom 16px biar ada jarak antar form group */
+.form-group-radio {
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+/* CSS untuk button;
+border none biar ga ada border
+Padding 8px biar ada jarak antar radio button
+Color antiquewhite biar tulisannya putih */
 button {
     border: none;
     padding: 8px;
     color: antiquewhite;
 }
 
+/* CSS untuk bg-black ;
+background color black biar hitam*/
 .bg-black {
     background-color: black;
 }
 
+/* CSS bg-cadet-blue;
+background color cadetblue biar biru */
 .bg-cadet-blue {
     background-color: cadetblue;
 }
 
+/* CSS untuk result-section;
+Padding 16px biar menjorok ke dalam
+Text align center biar rata tengah
+Background color antiquewhite biar putih */
 .result-section {
     padding: 16px;
     text-align: center;
     background-color: antiquewhite;
 }
 
+/* CSS untuk result-bmi;
+Font size xxx-large biar besar
+Font family math biar tulisannya jadi angka */
 #result-bmi {
     font-size: xxx-large;
     font-family: math;
+}
+
+/* CSS untuk id form;
+Font weight bold biar tebal */
+#form{
+    font-weight: bold;
+}
+
+/* CSS untuk section dengan class splitter;
+Width 50% biar setengah */
+section.splitter{
+    width: 50%;
+}
+
+/* CSS untuk label dengan properti for input-jenis-kelamin;
+Padding bottom 8px biar ada jarak antara label dan input */
+label[for="input-jenis-kelamin"]{
+    padding-bottom: 8px;
 }
